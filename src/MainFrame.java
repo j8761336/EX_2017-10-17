@@ -34,7 +34,7 @@ public class MainFrame extends JFrame {
         JBGO.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(JTID.getText().equals("123") && new String(JTPW.getPassword()).equals("123")){
+                if(JTID.getText().equals("h304") && new String(JTPW.getPassword()).equals("23323456")){
                     System.out.println("Yes! ");
                     RightFrame rf =new RightFrame();
                     rf.setVisible(true);
